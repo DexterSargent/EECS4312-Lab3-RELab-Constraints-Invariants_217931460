@@ -51,4 +51,11 @@ class DispenseEvent:
             bool: True if all invariants hold after adding new_event; False otherwise.
             
         """
-        pass
+        for event in existing_events:
+        if (event.patient_id == new_event.patient_id and 
+            event.medication == new_event.medication):
+            # Invariant Violated: Duplicate medication for same patient [cite: 110]
+            return False
+            
+    return True
+    
