@@ -2,6 +2,9 @@ EECS4312 Winter26:Lab3
 
 # Title: FROM ELICITATION TO CONSTRAINTS, INVARIANTS, AND TESTS
 
+# By: Dexter Sargent
+# Student No.: 217931460
+
 # Medication Dispensing System Documentation
 
 ## System Description
